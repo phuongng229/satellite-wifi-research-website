@@ -1,0 +1,122 @@
+:root {
+  --padding-sides: 5rem;
+  --nav-margin-bottom: 5rem;
+}
+
+body {
+  padding-top: 2rem;
+  font-family: "Source Sans 3", "Times New Roman", Times, serif;
+  color: white;
+  background-color: black;
+}
+
+.container {
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 1600px;
+  display: block;
+  width: 100%;
+}
+
+header {
+  padding: 0rem var(--padding-sides) 0rem var(--padding-sides);
+  display: flex;
+  margin-bottom: var(--nav-margin-bottom);
+  justify-content: space-between;
+  align-items: center;
+}
+
+ul.navbar {
+  list-style-type: none;
+  width: 1000px;
+}
+
+ul.navbar li {
+  display: inline;
+  margin: 0.5em 0;
+  padding: 0.3em;
+  border-right: 1em solid black;
+}
+
+ul.navbar a {
+  text-decoration: none;
+  color: white;
+}
+
+ul.navbar .active {
+  border-bottom: 2px solid #ff230c;
+}
+
+ul.navbar a:hover {
+  color: #fe877a;
+}
+
+h1 {
+  font-family: "Source Sans 3", Geneva, Arial, SunSans-Regular, sans-serif;
+  font-size: 80px;
+  line-height: 90%;
+  margin: 0px;
+}
+
+h2 {
+  font-family: "Source Sans 3", Geneva, Arial, SunSans-Regular, sans-serif;
+  font-weight: bold;
+  font-size: 80px;
+  line-height: 90%;
+  margin: 0px;
+}
+
+.hero-container {
+  display:inline
+  max-width: 1600px;
+  width: 100%;
+
+}
+
+.hero {
+  /* padding: 0rem var(--padding-sides) 0rem var(--padding-sides); */
+  margin-right: auto;
+  margin-left: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items:stretch;
+}
+
+.hero p {
+  width: 20rem;
+
+}
+
+#banner-image {
+  text-align: center;
+  margin-top: 72px;
+  margin-bottom: 72px;
+  width: 100%;
+}
+
+#card-container {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: auto auto auto;
+}
+
+article {
+  display: grid;
+  grid-gap: 20px;
+  width: 400px;
+  height: 170px;
+  border-radius: 3px;
+  border: 1px solid white;
+}
+
+.text-container {
+  padding: 10px;
+}
+
+
+
+address {
+  margin-top: 1em;
+  padding-top: 1em;
+  border-top: thin dotted;
+}
