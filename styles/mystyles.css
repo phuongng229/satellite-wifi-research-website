@@ -250,7 +250,13 @@ svg {
 }
 
 .footer {
+  
+  padding: 2rem 3rem;
   text-align: center;
+  font-size: 0.82rem;
+  color: var(--ink-faint);
+  font-family: var(--font-display);
+  letter-spacing: 0.1em;
 }
 
 .footer a {
