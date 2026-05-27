@@ -5,18 +5,6 @@
   <meta charset="UTF-8">
   <title>My first styled page</title>
   <link rel="stylesheet" href="/styles/mystyles.css">
-
-  <!-- <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill="#000000">
-    <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
-    <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
-    <g id="SVGRepo_iconCarrier">
-      <path
-        d="M15 15v1a7.008 7.008 0 0 1-7-7h1a6.007 6.007 0 0 0 6 6zM5 9H4a11.012 11.012 0 0 0 11 11v-1A10.011 10.011 0 0 1 5 9zm19.207 5.5L21.5 17.207 16.793 12.5l1-1-1.293-1.293-2 2L11.793 9.5l2-2L12.5 6.207l-1 1L6.793 2.5 9.5-.207 14.207 4.5l-1 1L14.5 6.793l2-2L19.207 7.5l-2 2 1.293 1.293 1-1zM11.5 5.793L12.793 4.5 9.5 1.207 8.207 2.5zm3 5L17.793 7.5 16.5 6.207 13.207 9.5zm7 5l1.293-1.293-3.293-3.293-1.293 1.293z">
-      </path>
-      <path fill="none" d="M0 0h24v24H0z"></path>
-    </g>
-  </svg> -->
-
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap"
@@ -26,110 +14,216 @@
 
 <body>
 
-  <!-- Site navigation menu -->
-  <div class="container">
 
-
-    <header>
-
-      <img src="/images/logo.png" alt="logo">
-
-      <ul class="navbar">
-        <li><a class="active" href="/index.html">Home page</a></li>
-        <li><a href="/pages/topic.html">Technology/Topic</a></li>
-        <li><a href="/pages/opportunities.html">Opportunities</a></li>
-        <li><a href="/pages/risks.html">Risks</a></li>
-        <li><a href="/pages/choices.html">Choices</a></li>
-        <li><a href="/pages/references.html">References</a></li>
-        <li><a href="/pages/team-members.html">Team Members</a></li>
-        <li><a href="/pages/meetings.html">Meeting Minutes</a></li>
-        <li><a href="/pages/guidelines.html">Guidelines</a></li>
-      </ul>
-
-    </header>
-  </div>
-
-  <div class="hero-container">
-    <div class="hero">
-      <h1>Satellite <br>Wi-Fi</h1>
-      <p>Satellite Wi-fi can provide internet access almost anywhere on Earth. Satellite Wi-fi helps offers connection
-        to
-        the internet, where traditional infrastructure is limited or unavailable. Making it an important technology for
-        industries and people in rural or remote areas​.
-      </p>
+  <!-- ============== NAVIGATION ============== -->
+  <nav class="navbar">
+    <div class="nav-brand">
+      <span class="brand-dot"></span>
+      <span class="brand-name">Satellite Wi-Fi</span>
     </div>
+    <ul class="nav-links">
+      <li><a class="active" href="index.html">Home</a></li>
+      <li><a href="choices.html">Topic</a></li>
+      <li><a href="opportunities.html" >Opportunities</a></li>
+      <li><a href="risks.html">Risks</a></li>
+      <li><a href="choices.html">Choices</a></li>
+      <li><a href="references.html">References</a></li>
+      <li><a href="team-members.html">Team</a></li>
+      <li><a href="meetings.html">Meetings</a></li>
+    </ul>
+  </nav>
+
+
+  <div class="hero-section">
+    <h1>Satellite <br>Wi-Fi</h1>
+    <p>Satellite Wi-Fi provides an alternative global connectivity solution for users. This technology is well-known for
+      delivering high-speed internet directly from low Earth orbit (LEO). As it doesn’t require underground cables, it
+      is being used across settings ranging from remote classrooms to disaster zones that traditional infrastructure has
+      long left behind. However, this technology also raises serious questions about security, data privacy, the
+      environment, and equity.
+    </p>
+  </div>
   </div>
 
   <div id="banner-image">
-    <img src="/images/Home_banner.png" alt="home_banner">
+    <img src="/images/Homepage_banner.png" alt="home_banner">
   </div>
 
 
-  <div class="hero">
+  <div class="hero-section">
     <h2>Abstract</h2>
-    <p>The integration of Artificial Intelligence (AI) into education is becoming increasingly common, with
-      applications
-      ranging from personalized learning systems to automated grading tools. This project explores various ways AI is
-      being used in educational environments, highlighting its potential to improve teaching efficiency, support
-      students with special needs, and tailor learning content to individual learners. However, alongside these
-      benefits
-      come important risks and challenges, such as data privacy concerns, algorithmic bias, and overdependence on
-      technology. By examining the social, ethical, and technical implications of AI in education, this project aims
-      to
-      develop a comprehensive framework for responsible and sustainable AI integration in teaching and learning
-      practices.
+    <p class="abstract">Satellite Wi-Fi is not a new technology in our modern era, but it has emerged as one of the most
+      transformative connectivity technologies across both industry and academia, due to its potential to address one of
+      the most significant challenges in our time: global connectivity. The emergence of low Earth orbit (LEO) satellite
+      systems promises to reduce service costs compared to traditional connection methods, while still bringing
+      meaningful improvements in latency, bandwidth, and geographic coverage — reaching remote areas that traditional
+      infrastructure has consistently failed to serve.</br></br>
+      On the one hand, many opportunities presented by satellite Wi-Fi are substantial and well-documented. Across
+      education, disaster response, healthcare, and economic participation, LEO satellite systems have demonstrated
+      their capacity to deliver meaningful connectivity to remote and underserved populations worldwide, in places where
+      cable-based broadband was never a realistic prospect.
+      On the other hand, the rapid scaling of satellite deployments introduces serious risks that are not always visible
+      to everyday users or adequately addressed by current governance frameworks. Cybersecurity vulnerabilities arising
+      from the open nature of satellite signals, privacy concerns linked to the concentration of global communications
+      within a single private provider, environmental consequences spanning ecological damage and orbital debris
+      accumulation, and affordability gaps that may deepen rather than close the digital divide — all demand urgent and
+      honest attention.</br></br>
+      In this project, we present a comprehensive assessment of satellite Wi-Fi, examining both its opportunities and
+      risks across technological, social, environmental, and ethical dimensions. For each area, we highlight key
+      findings, ethical implications, and concrete recommendations, ultimately arguing that realising the full potential
+      of satellite Wi-Fi requires not only technological ambition, but responsible, equitable, and transparent
+      deployment.
+
+    </p>
+  </div>
+
+  <div class="hero-section">
+    <h2>Introduction</h2>
+    <p class="abstract">Satellite Wi-Fi, particularly through low Earth orbit (LEO) constellations such as Starlink,
+      has
+      rapidly emerged as one of the most transformative connectivity technologies of the modern era. For decades,
+      traditional broadband infrastructure — dependent on physical cables, towers, and ground-based relay systems — has
+      left billions of people in remote, rural, and poor regions without reliable internet access. Satellite Wi-Fi
+      changes that equation fundamentally, delivering connectivity directly from orbit and bypassing the geographic and
+      economic barriers that have made conventional infrastructure impossible to build across mountains, islands, and
+      sparsely populated plains.</br></br>
+      The scale of the problem satellite Wi-Fi aims to solve is significant. Approximately 2.6 billion people worldwide
+      remain offline as of 2024 — not because the internet does not exist, but because reaching them through
+      ground-based infrastructure is prohibitively expensive. Low Earth orbit systems have overcome this barrier by
+      achieving performance levels that make satellite internet genuinely useful rather than merely technically present:
+      latency as low as 20 milliseconds and download speeds between 100 and 250 Mbps, compared to the 600-millisecond
+      delays that plagued earlier geostationary satellite systems. In education, this has already made a tangible
+      difference — satellite connectivity has reached tens of thousands of students across Nigeria, Rwanda, Malawi, and
+      Indigenous communities in the United States, providing access to digital learning tools in places where a reliable
+      connection was previously unimaginable. In healthcare, it has enabled virtual consultations and remote diagnostics
+      for patients in rural areas who would otherwise struggle to access specialist medical services. In disaster
+      response, satellite terminals have proven critical for restoring communication when earthquakes, floods, and
+      conflict destroy ground-based networks overnight.</br></br>
+      However, these opportunities do not exist in isolation. The same technology that connects a remote classroom in
+      Malawi or restores communication after an earthquake also introduces risks that are serious, growing, and
+      frequently underacknowledged. The open nature of satellite signals creates structural cybersecurity
+      vulnerabilities that traditional cable-based infrastructure does not face. The concentration of global
+      communications within a single private provider raises difficult questions about data privacy, corporate power,
+      and political accountability. The environmental footprint of manufacturing, launching, and eventually deorbiting
+      thousands of satellites — including the threat of Kessler Syndrome destabilising Earth's orbital environment —
+      presents consequences that extend far beyond the communities satellite Wi-Fi serves. And the hardware costs,
+      performance inconsistencies, and lack of local technical support that persist in the most remote regions risk
+      ensuring that the communities most in need benefit the least.</br></br>
+      This project critically examines all of these dimensions — opportunities, risks, and ethical choices — to provide
+      a balanced, evidence-based assessment of satellite Wi-Fi, and to identify what truly responsible deployment must
+      look like going forward.
+
+
     </p>
   </div>
 
 
 
   <div id="card-container">
-    <article>
-      <div class="text-container">
-        <h3>Benjamin</h3>
-      </div>
-    </article>
-    <article>
-      <div class="text-container">
-        <h3>Benjamin</h3>
-      </div>
-    </article>
-    <article>
-      <div class="text-container">
-        <h3>Benjamin</h3>
-      </div>
-    </article>
-    <article>
-      <div class="text-container">
-        <h3>Benjamin</h3>
-      </div>
-    </article>
-    <article>
-      <div class="text-container">
-        <h3>Benjamin</h3>
-      </div>
-    </article>
-    <article>
-      <div class="text-container">
-        <h3>Benjamin</h3>
-      </div>
-    </article>
+
+    <div class="card">
+      <a class="card-link" href="/pages/topic.html" target="blank">
+        <div class="card-content">
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+            <path fill="#f4f4f4" fill-rule="evenodd"
+              d="M10.001 14a2 2 0 1 1 0 4a2 2 0 0 1 0-4Zm0-3.853a5.695 5.695 0 0 1 4.8 2.626a.7.7 0 0 1-1.178.756a4.295 4.295 0 0 0-3.622-1.982a4.295 4.295 0 0 0-3.624 1.985a.7.7 0 0 1-1.179-.755a5.695 5.695 0 0 1 4.803-2.63Zm0-3.944c3.06 0 5.863 1.381 7.676 3.724a.7.7 0 0 1-1.107.857C15.02 8.783 12.626 7.603 10 7.603a8.283 8.283 0 0 0-6.537 3.184a.7.7 0 1 1-1.102-.863a9.682 9.682 0 0 1 7.64-3.721Zm0-4.203c3.905 0 7.243 1.5 9.819 4.32a.7.7 0 1 1-1.034.945C16.473 4.732 13.51 3.4 10.001 3.4c-3.422 0-6.453 1.372-8.79 3.87A.7.7 0 1 1 .19 6.316C2.785 3.538 6.184 2 10 2Z" />
+          </svg>
+          <h3>Technology/Topic</h3>
+        </div>
+      </a>
+    </div>
+
+
+    <div class="card">
+      <a class="card-link" href="/pages/opportunities.html" target="blank">
+        <div class="card-content">
+          <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24">
+            <path fill="#ededed"
+              d="M12 18a6 6 0 1 1 0-12a6 6 0 0 1 0 12Zm0-2a4 4 0 1 0 0-8a4 4 0 0 0 0 8ZM11 1h2v3h-2V1Zm0 19h2v3h-2v-3ZM3.515 4.929l1.414-1.414L7.05 5.636L5.636 7.05L3.515 4.93ZM16.95 18.364l1.414-1.414l2.121 2.121l-1.414 1.414l-2.121-2.121Zm2.121-14.85l1.414 1.415l-2.121 2.121l-1.414-1.414l2.121-2.121ZM5.636 16.95l1.414 1.414l-2.121 2.121l-1.414-1.414l2.121-2.121ZM23 11v2h-3v-2h3ZM4 11v2H1v-2h3Z" />
+          </svg>
+          <h3>Opportunities</h3>
+        </div>
+      </a>
+
+    </div>
+
+
+    <div class="card">
+      <a class="card-link" href="/pages/risks.html" target="blank">
+        <div class="card-content">
+          <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 24 24" fill="#ededed">
+            <g fill="#ededed">
+              <path
+                d="M2.06 19.253a.5.5 0 0 0 .434.747h17.032a.5.5 0 0 0 .434-.747l-2.27-3.995a4.24 4.24 0 0 1-2.616-.557l1.874 3.3H5.072L11.01 7.548L13 11.05c.004-.953.324-1.83.86-2.534l-2.415-4.252a.5.5 0 0 0-.87 0z" />
+              <path fill-rule="evenodd"
+                d="M14.414 9.49a3.216 3.216 0 0 1 5.631 3.109L22 14.554l-1.3 1.3l-1.954-1.955a3.2 3.2 0 0 1-1.609.385A3.21 3.21 0 0 1 14 11.07m3.216 1.378a1.378 1.378 0 1 0 0-2.756a1.378 1.378 0 0 0 0 2.756"
+                clip-rule="evenodd" />
+              <path
+                d="M14 11.07a3.2 3.2 0 0 1 .414-1.58zM10.25 17v-1.5h1.5V17zm.75-6a.75.75 0 0 0-.75.75v2.5a.75.75 0 0 0 1.5 0v-2.5A.75.75 0 0 0 11 11" />
+            </g>
+          </svg>
+          <h3>Risks</h3>
+        </div>
+      </a>
+    </div>
+
+
+    <div class="card">
+      <a class="card-link" href="/pages/choices.html" target="blank">
+        <div class="card-content">
+          <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 512 512">
+            <path fill="#ededed"
+              d="M400 25c-48.2 0-87 38.84-87 87c0 48.2 38.8 87 87 87s87-38.8 87-87c0-48.16-38.8-87-87-87zm40.5 34.01l15 9.98l-70.1 105.11l-55.8-55.7l12.8-12.8l40.2 40.3l57.9-86.89zM304.7 156.1L186.4 238H32v36h154.4l118.3 81.9c5.1-11 12.1-21 20.5-29.5L223.6 256l101.6-70.4c-8.4-8.5-15.4-18.5-20.5-29.5zM400 313c-48.2 0-87 38.8-87 87s38.8 87 87 87s87-38.8 87-87s-38.8-87-87-87zm-41.6 32.6l41.6 41.6l41.6-41.6l12.8 12.8l-41.6 41.6l41.6 41.6l-12.8 12.8l-41.6-41.6l-41.6 41.6l-12.8-12.8l41.6-41.6l-41.6-41.6l12.8-12.8z" />
+          </svg>
+          <h3>Choices</h3>
+        </div>
+      </a>
+    </div>
+
+
+    <div class="card">
+      <a class="card-link" href="/pages/team-members.html" target="blank">
+        <div class="card-content">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 28 28">
+            <path fill="#ededed"
+              d="M17.254 11a2.25 2.25 0 0 1 2.25 2.25v6.249a5.501 5.501 0 0 1-11.002 0V13.25a2.25 2.25 0 0 1 2.25-2.25h6.502Zm0 1.5h-6.502a.75.75 0 0 0-.75.75v6.249a4.001 4.001 0 0 0 8.002 0V13.25a.75.75 0 0 0-.75-.75ZM4.25 11h4.156a3.243 3.243 0 0 0-.817 1.5H4.25a.75.75 0 0 0-.75.75v5.249a3.001 3.001 0 0 0 4.238 2.735c.133.49.324.956.564 1.392A4.501 4.501 0 0 1 2 18.499V13.25A2.25 2.25 0 0 1 4.25 11Zm19.5 0A2.25 2.25 0 0 1 26 13.25v5.25a4.5 4.5 0 0 1-6.298 4.127l.056-.102c.214-.406.387-.837.511-1.289A3 3 0 0 0 24.5 18.5v-5.25a.75.75 0 0 0-.749-.75h-3.333A3.242 3.242 0 0 0 19.6 11h4.151ZM14 3a3.5 3.5 0 1 1 0 7a3.5 3.5 0 0 1 0-7Zm8.003 1a3 3 0 1 1 0 6a3 3 0 0 1 0-6ZM5.997 4a3 3 0 1 1 0 6a3 3 0 0 1 0-6ZM14 4.5a2 2 0 1 0 0 4a2 2 0 0 0 0-4Zm8.003 1a1.5 1.5 0 1 0 0 3a1.5 1.5 0 0 0 0-3Zm-16.006 0a1.5 1.5 0 1 0 0 3a1.5 1.5 0 0 0 0-3Z" />
+          </svg>
+          <h3>Team members</h3>
+        </div>
+      </a>
+    </div>
+
+
+    <div class="card">
+      <a class="card-link" href="/pages/meetings.html" target="blank">
+        <div class="card-content">
+          <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24">
+            <path fill="#ededed"
+              d="M1.75 1h12.5c.966 0 1.75.784 1.75 1.75v9.5A1.75 1.75 0 0 1 14.25 14H8.061l-2.574 2.573A1.458 1.458 0 0 1 3 15.543V14H1.75A1.75 1.75 0 0 1 0 12.25v-9.5C0 1.784.784 1 1.75 1ZM1.5 2.75v9.5c0 .138.112.25.25.25h2a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h6.5a.25.25 0 0 0 .25-.25v-9.5a.25.25 0 0 0-.25-.25H1.75a.25.25 0 0 0-.25.25Z" />
+            <path fill="#ededed"
+              d="M22.5 8.75a.25.25 0 0 0-.25-.25h-3.5a.75.75 0 0 1 0-1.5h3.5c.966 0 1.75.784 1.75 1.75v9.5A1.75 1.75 0 0 1 22.25 20H21v1.543a1.457 1.457 0 0 1-2.487 1.03L15.939 20H10.75A1.75 1.75 0 0 1 9 18.25v-1.465a.75.75 0 0 1 1.5 0v1.465c0 .138.112.25.25.25h5.5a.75.75 0 0 1 .53.22l2.72 2.72v-2.19a.75.75 0 0 1 .75-.75h2a.25.25 0 0 0 .25-.25v-9.5Z" />
+          </svg>
+          <h3>Meeting minutes</h3>
+        </div>
+      </a>
+    </div>
+
 
   </div>
   <!-- Sign and date the page, it's only polite! -->
-  <address>Made 1 March 2021<br>
-    by Tony Clear.</address>
-  <address>Edited 27 July 2025<br>
-    by Minh Hoang Quach.</address>
-  <address>Edited 21 August 2025<br>
-    by Weifan Zhao, Shoba Tegginmath.</address>
+   <div class="footer">
+  <address>Made 20 May 2026<br>
+    by Phuong Nguyen.</address>
+
 
 
   <p><em>thanks to W3C for tutorial and adapted code from <a
         href="https://www.w3.org/Style/Examples/011/firstcss.en.html">Style Examples</a></p></em>
   <p><em>also thanks to WDN for HTML and CSS resources and any adapted code snippets from <a
         href="https://developer.mozilla.org/en-US/docs/Web">Mozilla Developer Network</a></p></em>
-
+  <p><em>also thanks to Icon Buddy from <a href="https://iconbuddy.com/">Iconbuddy</a></em></p>
+  <p><em>also thanks to Pexels for the home banner from <a href="https://www.pexels.com/">Pexels.com</a></em></p>
+</div>
 </body>
 
 </html>
