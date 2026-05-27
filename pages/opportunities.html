@@ -8,8 +8,7 @@
   <link rel="stylesheet" href="../styles/satellite-style.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link
-    href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@300;400;500;600&display=swap"
+  <link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap"
     rel="stylesheet">
 </head>
 
@@ -69,10 +68,13 @@
         plains. Satellite internet skips that entirely.
       </p>
       <p>
-        Leinen et al. (2022) measured Starlink's minimum latency at 20ms with download speeds ranging between 100–250
-        Mbps, compared to geostationary satellite systems which suffer from 600+ millisecond delays due to their orbit
-        at 35,000+ km above Earth. That's fast enough for video calls, cloud tools and anything that requires a live
-        connection. It's what makes the technology actually useful rather than just technically present.
+        Real-world performance testing has shown that LEO systems significantly outperform older satellite
+        technologies. Centenaro et al. (2026) measured Starlink latency in the 40&ndash;50ms range with throughput
+        comparable to fixed wireless solutions, in stark contrast to traditional geostationary satellites which suffer
+        600+ millisecond delays due to their orbit at 35,000+ km above Earth. Ahmmed et al. (2022) argue that this
+        latency improvement is the key shift that makes LEO satellites genuinely viable as a substitute for terrestrial
+        broadband, rather than a stopgap. That's fast enough for video calls, cloud tools and anything that requires a
+        live connection &mdash; what makes the technology actually useful rather than just technically present.
       </p>
 
       <!-- Fixed wireless broadband subscriber growth chart -->
@@ -90,25 +92,27 @@
       <h2 class="section-title">Education</h2>
       <p>
         Education is where the impact has been most visible. At the Navajo Nation's Ojo Encino Pre-School in New
-        Mexico, teachers used to struggle to stream a single virtual lesson on one computer. After Starlink was
-        installed, they connected over a dozen devices simultaneously — streaming, uploading, downloading, using
-        learning portals — all at once (Starlink, n.d.). In Mist, Oregon, Aaron Miller, Superintendent of Vernonia
-        School District, described the change as "class-changing": 36 children now have simultaneous access where
-        before there was barely enough connection for 2 or 3 stations (Starlink, n.d.).
+        Mexico, teachers used to struggle to stream a single virtual lesson on one computer; after Starlink was
+        installed, they could connect over a dozen devices simultaneously, all streaming, uploading, and using learning
+        portals at once. In Mist, Oregon, Aaron Miller, Superintendent of Vernonia School District, described the
+        change as "class-changing": 36 children now have simultaneous access where before there was barely enough
+        connection for 2 or 3 stations.
       </p>
       <p>
-        The story repeats across other countries. Teach for Nigeria deployed 200 Starlink units across 120 schools in
-        Ogun State, reaching 18,000 students. Rwanda connected 50 schools in underserved communities (Education Guide
-        Blog, 2025). In Malawi, solar-powered mobile classrooms using Starlink reached over 10,000 students through the
-        BloomBox Design Labs initiative (Education Guide Blog, 2025). These aren't small experiments — they show the
-        technology working at real scale, in places where broadband was never going to arrive through a cable in the
-        ground.
+        The pattern repeats across other countries. Teach for Nigeria deployed 200 Starlink units across 120 schools in
+        Ogun State, reaching 18,000 students. Rwanda connected 50 schools in underserved communities. In Malawi,
+        solar-powered mobile classrooms using Starlink reached over 10,000 students through the BloomBox Design Labs
+        initiative. Al-Hraishawi et al. (2022) note that the rapid commercial maturity of non-geostationary
+        constellations is what makes such deployments practical at scale &mdash; the cost-per-terminal and bandwidth
+        capacity have both crossed thresholds that previous satellite technology never managed. These aren't small
+        experiments; they show the technology working in places where broadband was never going to arrive through a
+        cable in the ground.
       </p>
 
       <blockquote class="pullquote">
-        "Class-changing — 36 children now have simultaneous access where before there was barely enough connection for
-        2 or 3 stations."
-        <cite>— Aaron Miller, Vernonia School District (Starlink, n.d.)</cite>
+        "Class-changing &mdash; 36 children now have simultaneous access where before there was barely enough connection
+        for 2 or 3 stations."
+        <cite>&mdash; Aaron Miller, Superintendent, Vernonia School District (Oregon)</cite>
       </blockquote>
     </section>
 
@@ -148,7 +152,7 @@
 
       <!-- Satellite network illustration -->
       <figure class="figure">
-        <img src="../images/satellite-network-city.jpg"
+        <img src="/images\satellite-network-city.jpg"
           alt="Illustration of a satellite beaming signals down to a city, connecting multiple buildings and ground stations">
         <figcaption>Figure 2. Satellite networks can maintain connectivity to ground infrastructure when traditional
           networks fail. Photo by Volume Planet on Unsplash.</figcaption>
@@ -160,12 +164,13 @@
       <span class="section-number">05</span>
       <h2 class="section-title">Economic Opportunity</h2>
       <p>
-        Then there's the economic side. The World Bank estimates closing the digital divide could add $1.5 trillion to
-        global GDP by 2030 (cited in Medium, 2025). Remote work, online markets, digital banking — all of it depends on
-        a stable connection. The OECD (2023) links reliable rural connectivity directly to economic sustainability,
-        arguing that communities with access to digital tools are more productive and less isolated from global
-        markets. For a farmer in a remote area who can now sell goods online or access mobile banking for the first
-        time, the difference is immediate.
+        Then there's the economic side. Reliable connectivity is now treated as basic infrastructure for economic
+        participation, not a luxury. Remote work, online markets, digital banking &mdash; all of it depends on a stable
+        connection. The OECD (2023) links reliable rural connectivity directly to economic sustainability, arguing
+        that communities with access to digital tools are more productive and less isolated from global markets.
+        Ahmmed et al. (2022) make a similar point at the national level, framing LEO satellite broadband as a tool for
+        addressing structural economic inequality between urban and rural areas. For a farmer in a remote region who
+        can now sell goods online or access mobile banking for the first time, the difference is immediate.
       </p>
 
       <!-- Stats strip — pulled from real content for visual punch -->
@@ -175,12 +180,12 @@
           <div class="stat-label">People still offline (2024)</div>
         </div>
         <div class="stat">
-          <div class="stat-num">$1.5T</div>
-          <div class="stat-label">Potential GDP gain by 2030</div>
+          <div class="stat-num">600+ ms</div>
+          <div class="stat-label">GEO satellite latency</div>
         </div>
         <div class="stat">
-          <div class="stat-num">20ms</div>
-          <div class="stat-label">Starlink minimum latency</div>
+          <div class="stat-num">~50 ms</div>
+          <div class="stat-label">LEO satellite latency</div>
         </div>
         <div class="stat">
           <div class="stat-num">18,000</div>

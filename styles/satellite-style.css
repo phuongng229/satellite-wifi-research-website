@@ -24,9 +24,9 @@
   --border: rgba(255, 240, 230, 0.08);
   --border-strong: rgba(255, 240, 230, 0.16);
 
-  /* Typography */
-  --font-display: 'Space Grotesk', sans-serif;
-  --font-body: 'Inter', sans-serif;
+  /* Typography — using Source Sans 3 site-wide for consistency */
+  --font-display: 'Source Sans 3', sans-serif;
+  --font-body: 'Source Sans 3', sans-serif;
 
   /* Layout */
   --max-content: 760px;
@@ -133,6 +133,15 @@ body {
   padding-bottom: 3rem;
 }
 
+/* Flat hero variant — used on References page to remove the gradient/glow overlay */
+.hero-flat::after {
+  display: none;
+}
+
+.hero-flat {
+  background: var(--bg-deep);
+}
+
 .hero-bg-placeholder {
   position: absolute;
   inset: 0;
@@ -147,12 +156,25 @@ body {
   z-index: 0;
 }
 
+/* Real hero image — fills the hero area and gets darkened by the overlay */
+.hero-bg {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 0;
+  filter: brightness(0.55) saturate(1.1);
+}
+
 /* Subtle radial glow overlay so even without an image the hero feels intentional */
 .hero::after {
   content: '';
   position: absolute;
   inset: 0;
-  background: radial-gradient(ellipse at 30% 50%, rgba(217, 74, 61, 0.22) 0%, transparent 60%);
+  background:
+    linear-gradient(180deg, rgba(10, 8, 7, 0.3) 0%, rgba(10, 8, 7, 0.7) 100%),
+    radial-gradient(ellipse at 30% 50%, rgba(217, 74, 61, 0.25) 0%, transparent 60%);
   pointer-events: none;
   z-index: 1;
 }
