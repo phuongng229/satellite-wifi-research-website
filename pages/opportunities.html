@@ -1,37 +1,221 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN">
-<html>
+<!DOCTYPE html>
+<html lang="en">
+
 <head>
-  <title>opportunities</title>
-  	<link rel="stylesheet" href="../styles/mystyles.css">
-  </head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Opportunities | Satellite Wi-Fi</title>
+  <link rel="stylesheet" href="../styles/satellite-style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap"
+    rel="stylesheet">
+</head>
 
 <body>
-<img src="../images/csg4ed-small.png" alt="Enhancing Social Good in Computing">
-<!-- Site navigation menu -->
 
-<ul class="navbar">
-		<li><a href="../index.html">Home page</a></li>
-		<li><a href="topic.html">Technology/Topic</a></li>
-		<li><a href="opportunities.html">Opportunities</a></li>
-		<li><a href="risks.html">Risks</a></li>
-		<li><a href="choices.html">Choices</a></li>
-		<li><a href="references.html">References</a></li>
-		<li><a href="team-members.html">Team Members</a></li>
-		<li><a href="meetings.html">Meeting Minutes</a></li>
-		<li><a href="guidelines.html">Guidelines</a></li>
-	</ul>
+  <!-- ============== NAVIGATION ============== -->
+  <nav class="navbar">
+    <div class="nav-brand">
+      <span class="brand-dot"></span>
+      <span class="brand-name">Satellite Wi-Fi</span>
+    </div>
+    <ul class="nav-links">
+      <li><a href="../index.html">Home</a></li>
+      <li><a href="topic.html">Topic</a></li>
+      <li><a href="opportunities.html" class="active">Opportunities</a></li>
+      <li><a href="risks.html">Risks</a></li>
+      <li><a href="choices.html">Choices</a></li>
+      <li><a href="references.html">References</a></li>
+      <li><a href="team-members.html">Team</a></li>
+      <li><a href="meetings.html">Meetings</a></li>
+    </ul>
+  </nav>
 
-<!-- Main content -->
-<h1>Technology Opportunities</h1>
+  <!-- ============== HERO ============== -->
+  <header class="hero">
+    <img src="../images/satellite-dish-hero.jpg" alt="Silhouette of a large satellite dish against a cloudy sky"
+      class="hero-bg">
 
+    <div class="hero-content">
+      <p class="hero-tag">Opportunities</p>
+      <h1 class="hero-title">Connecting<br>the&nbsp;Unconnected</h1>
+      <p class="hero-sub">How low Earth orbit satellite networks are reaching the 2.6 billion people the internet
+        forgot.</p>
+    </div>
+  </header>
 
-</ul><h4><p>The page or area describing the opportunities presented by your chosen technology/topic.
-  When writing the content for this page, make sure to include in-text citations to support your analysis, synthesis, and critique throughout.<p></h4>
+  <!-- ============== MAIN CONTENT ============== -->
+  <main class="content">
 
-<!-- Sign and date the page, it's only polite! -->
-<address>Made 1 March 2021<br>
-  by Tony Clear.</address>
- 
-<p><em>thanks to W3C for tutorial and adapted code from <a href="https://www.w3.org/Style/Examples/011/firstcss.en.html">Style Examples</a></p></em>
-<p><em>also thanks to WDN for HTML and CSS resources and any adapted code snippets from <a href= "https://developer.mozilla.org/en-US/docs/Web">Mozilla Developer Network</a></p></em> 
- </html>
+    <!-- Intro -->
+    <section class="section">
+      <p class="lede">
+        Satellite Wi-Fi, especially through low Earth orbit (LEO) constellations like Starlink, has created real
+        opportunities for communities that traditional infrastructure has consistently skipped over. The technology
+        isn't new — but what's changed in the last few years is the scale, speed and reliability. That shift matters.
+      </p>
+    </section>
+
+    <!-- Digital Divide -->
+    <section class="section">
+      <span class="section-number">01</span>
+      <h2 class="section-title">Bridging the Digital Divide</h2>
+      <p>
+        Around 2.6 billion people worldwide are still offline as of 2024 — not because the internet doesn't exist, but
+        because the cables and towers needed to reach them are too expensive to build (World Economic Forum, 2024).
+        Ground-based broadband requires physical infrastructure across mountains, islands and sparsely populated
+        plains. Satellite internet skips that entirely.
+      </p>
+      <p>
+        Real-world performance testing has shown that LEO systems significantly outperform older satellite
+        technologies. Centenaro et al. (2026) measured Starlink latency in the 40&ndash;50ms range with throughput
+        comparable to fixed wireless solutions, in stark contrast to traditional geostationary satellites which suffer
+        600+ millisecond delays due to their orbit at 35,000+ km above Earth. Ahmmed et al. (2022) argue that this
+        latency improvement is the key shift that makes LEO satellites genuinely viable as a substitute for terrestrial
+        broadband, rather than a stopgap. That's fast enough for video calls, cloud tools and anything that requires a
+        live connection &mdash; what makes the technology actually useful rather than just technically present.
+      </p>
+
+      <!-- Fixed wireless broadband subscriber growth chart -->
+      <figure class="figure">
+        <img src="../images/broadband-growth-chart.png"
+          alt="Line graph showing fixed wireless broadband subscribers growing from approximately 2,500 in 2020 to over 22,500 in 2028">
+        <figcaption>Figure 1. Global fixed wireless broadband subscriber growth, 2020&ndash;2028. Source: World Economic
+          Forum (2024).</figcaption>
+      </figure>
+    </section>
+
+    <!-- Education -->
+    <section class="section">
+      <span class="section-number">02</span>
+      <h2 class="section-title">Education</h2>
+      <p>
+        Education is where the impact has been most visible. At the Navajo Nation's Ojo Encino Pre-School in New
+        Mexico, teachers used to struggle to stream a single virtual lesson on one computer; after Starlink was
+        installed, they could connect over a dozen devices simultaneously, all streaming, uploading, and using learning
+        portals at once. In Mist, Oregon, Aaron Miller, Superintendent of Vernonia School District, described the
+        change as "class-changing": 36 children now have simultaneous access where before there was barely enough
+        connection for 2 or 3 stations.
+      </p>
+      <p>
+        The pattern repeats across other countries. Teach for Nigeria deployed 200 Starlink units across 120 schools in
+        Ogun State, reaching 18,000 students. Rwanda connected 50 schools in underserved communities. In Malawi,
+        solar-powered mobile classrooms using Starlink reached over 10,000 students through the BloomBox Design Labs
+        initiative. Al-Hraishawi et al. (2022) note that the rapid commercial maturity of non-geostationary
+        constellations is what makes such deployments practical at scale &mdash; the cost-per-terminal and bandwidth
+        capacity have both crossed thresholds that previous satellite technology never managed. These aren't small
+        experiments; they show the technology working in places where broadband was never going to arrive through a
+        cable in the ground.
+      </p>
+
+      <blockquote class="pullquote">
+        "Class-changing &mdash; 36 children now have simultaneous access where before there was barely enough connection
+        for 2 or 3 stations."
+        <cite>&mdash; Aaron Miller, Superintendent, Vernonia School District (Oregon)</cite>
+      </blockquote>
+    </section>
+
+    <!-- Healthcare -->
+    <section class="section">
+      <span class="section-number">03</span>
+      <h2 class="section-title">Healthcare &amp; Telemedicine</h2>
+      <p>
+        Healthcare access follows a similar pattern. In rural Virginia, the Health Wagon organisation secured Starlink
+        installations for patients who had been relying on patchy cellular hotspots to connect with major medical
+        centres. Health Wagon's President, Dr. Theresa Tyson, noted that virtual consultations, remote diagnostics and
+        tele-specialty care were now available to patients who would otherwise struggle to reach those services (Health
+        Wagon, 2025). For someone living hours from the nearest hospital, that's not a minor improvement.
+      </p>
+      <p>
+        The OECD (2023) connects high-quality rural connectivity directly to better health service delivery,
+        identifying it as one of the most immediate benefits for remote communities.
+      </p>
+    </section>
+
+    <!-- Disaster Response -->
+    <section class="section">
+      <span class="section-number">04</span>
+      <h2 class="section-title">Disaster Response</h2>
+      <p>
+        Satellite Wi-Fi also matters in disaster situations where ground infrastructure collapses entirely. Earthquakes,
+        floods and conflict can take down cell towers and fiber networks in hours. Satellite terminals can restore
+        communication quickly and without needing to rebuild anything on the ground.
+      </p>
+      <p>
+        Kapoor and Ashish (2023) examined satellite Wi-Fi terminal deployment specifically for post-disaster emergency
+        communication, finding it a viable option for maintaining coordination between relief teams and affected
+        populations when all other networks are down. The 2023 earthquakes in Türkiye were a clear example of that gap
+        — mobile base stations were rushed in, but power outages limited them to only a few hours of operation per day,
+        while satellite systems remained independent (Matracia et al., 2022).
+      </p>
+
+      <!-- Satellite network illustration -->
+      <figure class="figure">
+        <img src="/images\satellite-network-city.jpg"
+          alt="Illustration of a satellite beaming signals down to a city, connecting multiple buildings and ground stations">
+        <figcaption>Figure 2. Satellite networks can maintain connectivity to ground infrastructure when traditional
+          networks fail. Photo by Volume Planet on Unsplash.</figcaption>
+      </figure>
+    </section>
+
+    <!-- Economic Opportunity -->
+    <section class="section">
+      <span class="section-number">05</span>
+      <h2 class="section-title">Economic Opportunity</h2>
+      <p>
+        Then there's the economic side. Reliable connectivity is now treated as basic infrastructure for economic
+        participation, not a luxury. Remote work, online markets, digital banking &mdash; all of it depends on a stable
+        connection. The OECD (2023) links reliable rural connectivity directly to economic sustainability, arguing
+        that communities with access to digital tools are more productive and less isolated from global markets.
+        Ahmmed et al. (2022) make a similar point at the national level, framing LEO satellite broadband as a tool for
+        addressing structural economic inequality between urban and rural areas. For a farmer in a remote region who
+        can now sell goods online or access mobile banking for the first time, the difference is immediate.
+      </p>
+
+      <!-- Stats strip — pulled from real content for visual punch -->
+      <div class="stats-strip">
+        <div class="stat">
+          <div class="stat-num">2.6B</div>
+          <div class="stat-label">People still offline (2024)</div>
+        </div>
+        <div class="stat">
+          <div class="stat-num">600+ ms</div>
+          <div class="stat-label">GEO satellite latency</div>
+        </div>
+        <div class="stat">
+          <div class="stat-num">~50 ms</div>
+          <div class="stat-label">LEO satellite latency</div>
+        </div>
+        <div class="stat">
+          <div class="stat-num">18,000</div>
+          <div class="stat-label">Students reached in Nigeria</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Conclusion -->
+    <section class="section">
+      <span class="section-number">06</span>
+      <h2 class="section-title">Conclusion</h2>
+      <p>
+        Satellite Wi-Fi won't solve everything. Hardware costs are still a challenge and weather can disrupt signals.
+        But the opportunities across education, healthcare, emergency response and economic access are well-documented
+        and growing. As LEO constellations expand and equipment becomes cheaper, these opportunities will reach more
+        people — including communities that have been waiting a long time.
+      </p>
+      <p class="see-more">
+        See the full list of sources on the <a href="references.html">References page</a> &rarr;
+      </p>
+    </section>
+
+  </main>
+
+  <!-- ============== FOOTER ============== -->
+  <footer class="footer">
+    <p>Satellite Wi-Fi Research Project &middot; AUT &middot; 2026</p>
+  </footer>
+
+</body>
+
+</html>
