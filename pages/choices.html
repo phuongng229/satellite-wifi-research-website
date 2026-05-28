@@ -1,37 +1,136 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN">
 <html>
+
 <head>
-  <title>choices</title>
-  	<link rel="stylesheet" href="../styles/mystyles.css">
-  </head>
+	<title>choices</title>
+	<link rel="stylesheet" href="../styles/satellite-style.css">
+</head>
 
 <body>
-<img src="../images/csg4ed-small.png" alt="Enhancing Social Good in Computing">
-<!-- Site navigation menu -->
 
-<ul class="navbar">
-		<li><a href="../index.html">Home page</a></li>
-		<li><a href="topic.html">Technology/Topic</a></li>
-		<li><a href="opportunities.html">Opportunities</a></li>
-		<li><a href="risks.html">Risks</a></li>
-		<li><a href="choices.html">Choices</a></li>
-		<li><a href="references.html">References</a></li>
-		<li><a href="team-members.html">Team Members</a></li>
-		<li><a href="meetings.html">Meeting Minutes</a></li>
-		<li><a href="guidelines.html">Guidelines</a></li>
-	</ul>
+	<!-- ============== NAVIGATION ============== -->
+	<nav class="navbar">
+		<div class="nav-brand">
+			<span class="brand-dot"></span>
+			<span class="brand-name">Satellite Wi-Fi</span>
+		</div>
+		<ul class="nav-links">
+			<li><a href="index.html">Home</a></li>
+			<li><a href="topic.html">Topic</a></li>
+			<li><a href="opportunities.html">Opportunities</a></li>
+			<li><a href="risks.html">Risks</a></li>
+			<li><a class="active" href="choices.html">Choices</a></li>
+			<li><a href="references.html">References</a></li>
+			<li><a href="team-members.html">Team</a></li>
+			<li><a href="meetings.html">Meetings</a></li>
+		</ul>
+	</nav>
 
-<!-- Main content -->
-<h1>Technology Choices</h1>
+	<!-- Main content -->
+	<!-- ============== HERO ============== -->
+	<header class="hero">
+		<img src="../images/12019-hurricane-92968_1920.jpg" alt="Satellite view of a hurricane" class="hero-bg">
+
+		<div class="hero-content">
+			<p class="hero-tag">Choices</p>
+			<h1 class="hero-title">Satellite Communication Choices</h1>
+			<p class="hero-sub">What options do underserved communties have?</p>
+		</div>
+	</header>
+
+	<!-- ============== MAIN CONTENT ============== -->
+	<main class="content">
+
+		<section class="section">
+			<span class="section-number">01</span>
+			<h2 class="section-title">Radio Frequency vs Optical Communications </h2>
+			<p>
+				With satellite wi-fi there are not only choices in provider, but also choices in the type of
+				communication technology. Both radio frequency (RF) communications, and optical (laser) communications
+				are currently being used by NASA for their satellite communications, but both options come with
+				trade-offs (NASA, 2026a).
+			</p>
+			<p>
+				RF communications transmit data using electromagnetic radio waves through antennas. These signals can
+				travel through buildings and complex geographical landscapes and offer reliable communications through
+				atmospheric conditions like clouds, rain and fog (Pranavnath, 2026). But they are restricted in the
+				amount of data that can be sent at a time due to the limited bandwidth of electromagnetic waves
+				(Pranavnath, 2026).
+			</p>
+
+			<p>
+				The other option is Optical communications which use the light spectrum to transfer data rather than
+				radio waves. It has a greater bandwidth allowing for more data to be transfer, but at cost of needing
+				extremely precise positioning. With it also being highly affect by weather conditions like clouds and
+				rain (Manning & Schauer, 2023).
+			</p>
+		</section>
+
+		<section class="section">
+			<span class="section-number">02</span>
+			<h2 class="section-title">Implementation of Satellite Communications for underserved communities</h2>
+			<p>
+				In remote underserved communities there are often challenges of varying terrain, weather conditions and
+				spread-out housing. Because of this is optical communications aren't an option, as they are less
+				reliable in poor weather and require extremely precise alignment between transmitter and receiver (NASA,
+				2026a). In contrast, RF communications are more reliable under varying environmental conditions and are
+				less dependent on precise alignment (NASA, 2026a). Making them the best option for satellite Wi-Fi
+				especially in remote areas with it able to cover wider areas.
+			</p>
+			<p>
+				There are also the choice in-relation the distance satellites are located from earth. With two main
+				options geostationary orbit (GEO) and low-earth orbit satellites. GEO satellites are positioned over the
+				equator around 36,000km up which allows for wide area and steady coverage, but with the cost of high
+				latency (McMahon et al. 2025). LEO satellites sit much lower, around 500 kms up and offers a lower
+				latency connection but lack wide area coverage. This shortcoming is made up for by optical
+				communications links, which are used to connect satellites creating a constellation-like setup. Allowing
+				for wider area coverage and improve data transfer better satellites (NASA, 2026b).
+			</p>
+		</section>
+
+		<section class="section">
+			<span class="section-number">03</span>
+			<h2 class="section-title">What Satellite system is best for underserved communities?</h2>
+			<p>
+				LEO satellite systems appear to be the most suitable option for underserved communities due to their
+				lower latency and higher speed. They can support modern internet applications such as online education,
+				video conferencing and remote work.
+			</p>
+			<p>
+				However, these benefits come with higher infrastructure and subscription costs. An example being the
+				Nishnawbe Aski Nation during spending $12 million over a 3-year-period for an emergency Starlink service
+				(McMahon et al. 2025). To address these challenges, the research done by McMahon et al. (2025) found two
+				business models available in remote communities. The first being a direct-to-home model, like Starlink,
+				where internet is sent directly each house but gives all the control to the satellite company. With this
+				model the satellite company controls everything, the equipment, pricing and how the internet is managed.
+				The other option is the community aggregator model, which gives the locals control, with one connection
+				point that is distributed throughout the community. This comes with potential limitations as depending
+				on the service, you wouldn't be getting the newest and best technology. Another potential issue would be
+				that someone of technical expertise would be required to manage this, which may not always be an option
+				in remote communities.
+			</p>
+
+			<p>
+				GEO systems remain useful for wide-area public connectivity in remote regions, as shown by Brazil’s SGDC
+				program (Global Infrastructure Hub, 2021). Which has connected thousands of schools, health stations,
+				libraries, and indigenous facilities across difficult to reach regions. GEO systems remain useful for
+				fixed installations and wider area coverage, but their higher latency makes them less suitable for
+				real-time communication services (McMahon et al. 2025).
+			</p>
+
+			<p>
+				Therefore, the best implementation choice for the underserved community is dependent on the communities’
+				needs and economic standings. Balancing affordability and performance with the specific needs of each
+				community is the best option.
+			</p>
+		</section>
 
 
-</ul><h4><p>The page or area describing the choices available to us through or by your chosen technology/topic.
-  When writing the content for this page, make sure to include in-text citations to support your analysis, synthesis, and critique throughout.<p></h4>
 
-<!-- Sign and date the page, it's only polite! -->
-<address>Made 1 March 2021<br>
-  by Tony Clear.</address>
- 
-<p><em>thanks to W3C for tutorial and adapted code from <a href="https://www.w3.org/Style/Examples/011/firstcss.en.html">Style Examples</a></p></em>
-<p><em>also thanks to WDN for HTML and CSS resources and any adapted code snippets from <a href= "https://developer.mozilla.org/en-US/docs/Web">Mozilla Developer Network</a></p></em> 
- </html>
+
+		<!-- Sign and date the page, it's only polite! -->
+		<address>Made 28th May 2025<br>
+			by Benjamin Macpherson.</address>
+
+		<p><em>Banner image from Pixabay, Free for use under the Pixabay Content License: <a href="https://pixabay.com/photos/hurricane-earth-satellite-tracking-92968/">pixabay.com</a></em></p>
+</html>
