@@ -215,6 +215,15 @@ body {
   line-height: 1.5;
 }
 
+h5 {
+  font-weight:200 !important;
+  color: #7f7f7f;
+}
+
+h4 {
+  font-weight: 400;
+}
+
 /* ============== CONTENT ============== */
 .content {
   max-width: var(--max-content);
@@ -431,6 +440,11 @@ body {
   transition: border-color 0.2s ease;
 }
 
+.git-link {
+  color: var(--accent-soft);
+  text-decoration: none;
+}
+
 .ref-item a:hover {
   border-bottom-color: var(--accent-soft);
 }
@@ -532,4 +546,6 @@ tr:nth-child(odd) td {
   background-color: rgb(0, 0, 0);
 }
 
-
+.task-space {
+  margin-left: 2rem;
+}
